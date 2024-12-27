@@ -20,7 +20,7 @@ class ImageTextOverlay:
                 "y": ("INT", {"default": 0}),
                 "font": ("STRING", {"default": "arial.ttf"}),  # Assuming it's a path to a .ttf or .otf file
                 "alignment": (cls._alignments, {"default": "left"}),  # ["left", "right", "center"]
-                "color": ("INT", {"default": 0, "min": 0, "max": 0xFFFFFF, "step": 1, "display": "color"}),
+                "color": ("INT", {"default": 0, "min": 0, "max": 0xFFFFFF, "step": 1, "display": "color", "tooltip": "Format 0xRRGGBB; pre-pend 0x, e.g: 0xFFFFFF for white"}),
                 "position_option": ("BOOLEAN", {"default": False, "label_on": "Using Bottom Right", "label_off": "Using X,Y Position", "tooltip": "Toggle to place text at the bottom right of the image or use custom X, Y positions."}),
                 "background": ("BOOLEAN", {"default": False, "label_on": "Opaque", "label_off": "Transparent", "tooltip": "Toggle to add an opaque white background to the text with black font color."}),
                 "opaque_size": ("INT", {"default": 10, "min": 0, "max": 50, "step": 1, "tooltip": "Adjust the size of the opaque background box."}),
