@@ -1,3 +1,6 @@
+This is a fork of mikkels version with fixes applied
+
+
 # ComfyUI - Text Overlay Plugin
 
 ![ComfyUI Text Overlay Example](assets/text-example-1.png)
