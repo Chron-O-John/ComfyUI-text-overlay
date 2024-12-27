@@ -1,5 +1,5 @@
-This is a fork of mikkels version with fixes applied
-
+This is a fork of mikkels version with LockMan007s fixes and additions.
+see: https://github.com/mikkel/ComfyUI-text-overlay/issues/6
 
 # ComfyUI - Text Overlay Plugin
 
